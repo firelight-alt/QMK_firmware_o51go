@@ -1,20 +1,43 @@
-# JP60
+# o51go Custom Firmware (Based on Salicylic-acid3's QMK)
 
-![JP60](https://github.com/ai03-2725/JP60/raw/main/Render/Front.png)
+This is a modified QMK firmware for the [o51go keyboard](https://github.com/Salicylic-acid3/vial-qmk/tree/vial/keyboards/salicylic_acid3/o51go), originally created by [Salicylic-acid3](https://github.com/Salicylic-acid3).
 
-GH60-compatible JIS-like hotswap keyboard PCB
+## Changes
+- Added Kana/EISU language switching keys
+- Customized keymap with Ctrl on hold, layer switch on tap
+- Optimized layout for personal typing workflow
 
-* Keyboard Maintainer: [ai03](https://github.com/ai03-2725)
-* Hardware Supported: [JP60 PCB](https://github.com/ai03-2725/JP60)
-* Hardware Availability: To be made available in JP market soon; will be listed in the repo above
+## License
+This project inherits the original MIT license from QMK and Salicylic-acid3's firmware.
+
+![O51Go](https://s2.booth.pm/1d33594d-0c5f-4f93-baf5-2e89e0d99afc/i/5528166/b6492818-45d6-44d5-a60c-c3066d6362d8_base_resized.jpg)
+
+40% Ortholinear Keyboard
+
+* Keyboard Maintainer: [Salicylic-acid3](https://github.com/Salicylic-acid3)
+* Hardware Supported: *The PCBs, controllers supported*
+* Hardware Availability: (https://keeb-on.com/products/40keyboard-goforty)
+
+Setting Up Your QMK Environment
+
+    Please follow the instruction of the official QMK document (https://docs.qmk.fm/newbs_getting_started)
+
+Creating a keyboard folder
+
+    You may be able to create a keyboard forlder with a command below:
+
+    qmk new-keyboard -kb o51go
+
+    Then, you will have "qmk_firmware/keyboards/o51go" folder. You may need to replace some contents of that folder with files and folders of this repository.
+
 
 Make example for this keyboard (after setting up your build environment):
 
-    make ai03/jp60:default
+    qmk compile -kb o51go -km via
 
 Flashing example for this keyboard:
 
-    make ai03/jp60:default:flash
+    Please use QMK Toolbox (https://github.com/qmk/qmk_toolbox/releases)
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
