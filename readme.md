@@ -4,7 +4,7 @@ This is a modified QMK firmware for the [o51go keyboard](https://github.com/Sali
 
 ## Changes
 - Some JIS keycodes have been overridden to emulate a pseudo-US layout
-- Host OS detectionw
+- Host OS detection
 
 ## License
 This project inherits the original MIT license from QMK and Salicylic-acid3's firmware.
