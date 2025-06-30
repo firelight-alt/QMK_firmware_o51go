@@ -1,11 +1,10 @@
-# o51go Custom Firmware (Based on Salicylic-acid3's QMK)
+# O51go Custom Firmware (Based on Salicylic-acid3's QMK)
 
 This is a modified QMK firmware for the [o51go keyboard](https://github.com/Salicylic-acid3/vial-qmk/tree/vial/keyboards/salicylic_acid3/o51go), originally created by [Salicylic-acid3](https://github.com/Salicylic-acid3).
 
 ## Changes
-- Added Kana/EISU language switching keys
-- Customized keymap with Ctrl on hold, layer switch on tap
-- Optimized layout for personal typing workflow
+- Some JIS keycodes have been overridden to emulate a pseudo-US layout
+- Host OS detectionw
 
 ## License
 This project inherits the original MIT license from QMK and Salicylic-acid3's firmware.
